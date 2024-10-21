@@ -46,7 +46,6 @@ Asegúrate de que el archivo config/db.js esté configurado correctamente con lo
 Reemplaza los valores de user y contraseña por los que configures en tu base de datos:
 
 
-    ```bash
     const { Pool } = require('pg');
     
     const pool = new Pool({
