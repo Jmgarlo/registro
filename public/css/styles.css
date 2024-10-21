@@ -10,20 +10,19 @@ body {
 }
 
 h1 {
-    background-color: #007bff; /* Color de fondo azul */
-    color: white; /* Color de texto blanco */
-    padding: 10px; /* Espacio interno alrededor del texto */
-    border-radius: 5px; /* Bordes redondeados */
-    text-align: center; /* Centrar el texto */
-    margin: 0 0 20px 0; /* Espaciado inferior */
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 0 20px 0;
 }
 
-/* Estilo del formulario */
 .form-container {
-    display: flex; /* Usar flexbox para centrar el formulario */
-    justify-content: center; /* Centrar el formulario */
-    width: 100%; /* Ocupar todo el ancho de la pantalla */
-    padding: 0 20px; /* Espacio a los lados del formulario */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 20px;
 }
 
 form {
@@ -31,19 +30,18 @@ form {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%; /* Hacer que el formulario ocupe todo el ancho */
-    max-width: 1200px; /* Ancho máximo del formulario */
+    width: 100%;
+    max-width: 1200px;
 }
 
 .form-row {
-    display: flex; /* Usar flexbox para colocar los elementos en filas */
-    flex-wrap: wrap; /* Permitir que los elementos se ajusten a la siguiente fila */
-    margin-bottom: 20px; /* Espacio entre las filas */
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
-/* Estilos para labels y inputs */
 label {
-    margin-bottom: 4px; /* Menos separación entre label y input */
+    margin-bottom: 4px;
     color: #555;
     padding: 8px;
 }
@@ -52,10 +50,9 @@ input {
     padding: 8px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    margin-bottom: 10px; /* Espacio entre inputs */
+    margin-bottom: 10px;
 }
 
-/* Estilo para el botón */
 button {
     background-color: #28a745;
     color: white;
@@ -63,35 +60,34 @@ button {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
-    margin-left: 10px; /* Espacio encima del botón */
-    max-width: 150px; /* Ancho máximo del botón */
+    margin-left: 10px;
+    max-width: 150px;
 }
 
 button:hover {
     background-color: #218838;
 }
 
-/* TABLA */
 table {
-    width: 80%; /* Cambiar ancho de la tabla */
+    width: 80%;
     margin-top: 20px;
-    border-collapse: collapse; /* Colapsar bordes para un aspecto más limpio */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra alrededor de la tabla */
-    border-radius: 8px; /* Bordes redondeados para la tabla */
-    overflow: hidden; /* Asegurarse de que los bordes redondeados se apliquen correctamente */
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 th, td {
-    padding: 12px; /* Espaciado dentro de celdas */
-    text-align: left; /* Alinear texto a la izquierda */
-    font-size: 16px; /* Tamaño de fuente más grande */
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
 }
 
 th {
-    background-color: #007bff; /* Color de fondo moderno para encabezados */
-    color: white; /* Texto blanco para el encabezado */
+    background-color: #007bff;
+    color: white;
 }
 
 td {
-    background-color: #ffffff; /* Fondo blanco para celdas */
+    background-color: #ffffff;
 }
